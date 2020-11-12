@@ -4,7 +4,6 @@
 // --------------------------------------------------------------------------
 var express = require("express");
 var bodyParser = require("body-parser");
-var mongoClient = require("mongodb").MongoClient;
 
 var os = require("os");
 
