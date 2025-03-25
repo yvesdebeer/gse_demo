@@ -1,4 +1,4 @@
-FROM node:10
+FROM node:latest
 COPY app.js .
 COPY my.env.defaults .
 COPY public ./public
